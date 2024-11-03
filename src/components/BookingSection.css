@@ -1,0 +1,35 @@
+.booking-section {
+    background-color: #ffdd57; /* Coral red */
+    border-radius: 10px;
+    width: 250px;
+    padding: 1.5rem;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    color: #381116; /* White text for readability */
+  }
+  
+  .booking-section h3 {
+    color: #381116;
+  }
+  
+  .booking-section img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .booking-section p {
+    color: #381116;
+  }
+  
+  .booking-section a {
+    color:  #381116; /* Lemon yellow link */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .booking-section a:hover {
+    text-decoration: underline;
+    color: #381116; /* Tropical green on hover */
+  }
+  

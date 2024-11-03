@@ -1,0 +1,35 @@
+.menu-section {
+    background-color: #ffdd57; /* Lemon yellow */
+    border-radius: 10px;
+    width: 250px;
+    padding: 1.5rem;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    color: #333333; /* Dark text for readability */
+  }
+  
+  .menu-section h3 {
+    color: #333333;
+  }
+  
+  .menu-section img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .menu-section p {
+    color: #333333;
+  }
+  
+  .menu-section a {
+    color: #381116; /* Tropical green link */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .menu-section a:hover {
+    text-decoration: underline;
+    color: #381116; /* Coral red on hover */
+  }
+  

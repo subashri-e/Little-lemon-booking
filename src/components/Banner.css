@@ -1,0 +1,39 @@
+.banner {
+    position: relative;
+    background-image: url("banner-image-url.png"); /* Replace with your actual image URL */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+    z-index: 1;
+  }
+  
+  .banner h2, .banner p {
+    position: relative;
+    z-index: 2; /* Ensure text is above the overlay */
+  }
+  
+  .banner h2 {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #ffdd57; /* Lemon yellow for heading */
+  }
+  
+  .banner p {
+    font-size: 1.2rem;
+  }
+  

@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffdd57; /* Vibrant lemon yellow */
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333333; /* Dark text for contrast */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  cursor: pointer;
+  font-weight: 500;
+  color: #333333;
+  transition: color 0.3s;
+}
+
+.nav-links li:hover {
+  color: #ff5252; /* Coral red hover effect */
+}
